@@ -1,0 +1,27 @@
+# ACTIVITY 1
+START
+INPUT num1
+INPUT num2
+PROCESS sum = num1 + num2
+DISPLAY sum
+END
+
+# ACTIVITY 2
+START
+INPUT grade
+IF grade >= 60 THEN
+DISPLAY "Passed"
+ELSE
+DISPLAY "Failed"
+END IF
+END
+
+# ACTIVITY 3
+START
+INPUT number
+IF number MOD 2 = 0 THEN
+DISPLAY "Even"
+ELSE
+DISPLAY "Odd"
+END IF
+END
